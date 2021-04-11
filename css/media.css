@@ -1,0 +1,33 @@
+@media (max-width: 1370px) {
+	.new-collection, .old-collection {
+		display: none;
+	}
+	.porten-content, .porten-content_two {
+		display: block;
+	}
+}
+@media (max-width: 1067px) {
+	.footer-list {
+		flex-direction: column;
+	}
+}
+@media (max-width: 960px) {
+	.header-nav {
+		overflow-x: scroll;
+}	
+@media (max-width: 400px) {
+	.header_up-list_left {
+		display: none;
+	}
+	.header-logo {
+		display: none;
+	}
+}
+@media (max-width: 370px) {
+	.footer-input_email {
+		width: 150px;
+	}
+	.footer-input_btn {
+		font-size: 10px;
+	}
+}
